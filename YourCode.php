@@ -1,5 +1,5 @@
 $client = new \Google_Client();
-$client->setAuthConfig(storage_path() . '/YOUR_GFILE.json');
+$client->setAuthConfig('/YOUR_GFILE.json');
 $client->setApplicationName("Analytics");
 $client->setScopes(['https://www.googleapis.com/auth/analytics']);
 
