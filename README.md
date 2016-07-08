@@ -68,4 +68,6 @@ TopArticles::get(
     "(articles/)", //Regex for Filters (everything containing "articles/")
     10 //Results
 );
+
+//It'll return an array with your top viewed articles :)
 ```
