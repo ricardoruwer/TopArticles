@@ -1,0 +1,20 @@
+{
+    "name": "ruwer/toparticles",
+    "description": "Get the top read articles of your page.",
+    "keywords": ["analytics", "top", "read", "articles"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ricardo Ruwer",
+            "email": "ricardoruwer@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ruwer\\TopArticles\\": "src"
+        }
+    }
+}
