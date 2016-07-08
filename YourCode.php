@@ -17,5 +17,5 @@ $params = [
 
 $analytics = new \Google_Service_Analytics($client);
 $results = $analytics->data_ga
-    ->get($ids, $start_date, $end_date, $metrics, $params)
-    ->getRows();
+  ->get($ids, $start_date, $end_date, $metrics, $params)
+  ->getRows();
